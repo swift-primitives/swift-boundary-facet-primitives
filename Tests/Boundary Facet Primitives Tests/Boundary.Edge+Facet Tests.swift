@@ -1,8 +1,7 @@
 // Boundary.Edge+Facet Tests.swift
 
-import Testing
-
 import Boundary_Facet_Primitives
+import Testing
 
 @Suite
 struct `Boundary.Edge Facet projection` {

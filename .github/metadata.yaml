@@ -1,0 +1,10 @@
+# .github/metadata.yaml
+description: "Facet projection of rectangle edges for Swift — bridges boundary Edges to oriented axis facets."
+topics:
+  - primitives
+  - boundary
+  - facet
+  - geometry
+homepage: "https://swift-institute.org"
+readme:
+  family: E

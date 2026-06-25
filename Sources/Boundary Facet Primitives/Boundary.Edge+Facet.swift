@@ -5,8 +5,10 @@ public import Boundary_Primitives
 public import Facet_Primitives
 
 extension Boundary.Edge {
-    /// The 2D box facet this edge lies on: top = +Y, right = +X, bottom = −Y, left = −X
-    /// (axis 0 = X = primary, axis 1 = Y = secondary).
+    /// The 2D box facet this edge lies on.
+    ///
+    /// Maps `top` to +Y, `right` to +X, `bottom` to −Y, and `left` to −X, taking
+    /// axis 0 = X as the primary axis and axis 1 = Y as the secondary axis.
     @inlinable
     public var facet: Facet<2> {
         switch self {
